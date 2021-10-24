@@ -1,0 +1,14 @@
+body{
+    background-color: #b09796;
+}
+.container{
+    display: flex;
+}
+#doc-title{
+flex:1;
+order:1;
+}
+#dna-pic{
+flex:1;
+order:2;
+}
