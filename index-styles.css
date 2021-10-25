@@ -1,14 +1,24 @@
-body{
-    background-color: #b09796;
-}
+
 .container{
     display: flex;
 }
-#doc-title{
+.basic-info{
+flex:2;
+order:1;
+}
+.additional-info{
+flex:3;
+order:2;
+}
+#intro{
 flex:1;
 order:1;
 }
-#dna-pic{
+#introPic{
 flex:1;
 order:2;
+}
+#foot{
+    flex:1;
+    order:1;
 }
